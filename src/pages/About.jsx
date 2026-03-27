@@ -3,23 +3,24 @@ export default function About() {
     <div className="about-page">
       <div className="about-hero">
         <div className="hero-glyph">♟</div>
-        <h1 className="hero-title">About <em>Blindspot</em></h1>
+        <h1 className="hero-title">About <em>DecoyPuzzle</em></h1>
       </div>
 
       <div className="about-sections">
         <div className="about-section">
           <h2>The project</h2>
           <p>
-            Blindspot is an open source chess puzzle trainer built as a personal project. The idea came from a simple observation: in real games, nobody tells you a tactic exists. You have to sense it yourself.
+            DecoyPuzzle is an open source chess puzzle trainer built as a personal project. The idea came from a simple observation: in real games, nobody tells you a tactic exists. You have to sense it yourself.
           </p>
           <p>
-            Unlike standard puzzle trainers that always guarantee a winning move, Blindspot presents positions where a winning move might or might not exist — and asks you to judge first.
+            Unlike standard puzzle trainers that always guarantee a winning move, DecoyPuzzle presents positions where a winning move might or might not exist — and asks you to judge first.
           </p>
         </div>
 
         <div className="about-section">
+          <h2>Built by</h2>
           <p>
-            Built by berkerdnmz
+            Ömer Berker Dönmez — Computer Engineering student at İzmir Yüksek Teknoloji Enstitüsü (İYTE).
           </p>
           <a
             href="https://github.com/berkerdnmz/chess-puzzle-trainer"
@@ -47,7 +48,7 @@ export default function About() {
         <div className="about-section">
           <h2>Open source</h2>
           <p>
-            Blindspot is MIT licensed. The source code is fully open — feel free to fork, contribute, or use it as a reference. User data (ELO, login info) stays private in a separate Supabase instance not included in the repository.
+            DecoyPuzzle is MIT licensed. The source code is fully open — feel free to fork, contribute, or use it as a reference. User data (ELO, login info) stays private in a separate Supabase instance not included in the repository.
           </p>
         </div>
       </div>

@@ -11,7 +11,7 @@ export default function Home() {
           Not every position has a <em>winning move</em>.
         </h1>
         <p className="hero-subtitle">
-          Classic puzzle trainers always guarantee a solution exists. Blindspot doesn't. Judge the position first — then find the move.
+          Classic puzzle trainers always guarantee a solution exists. DecoyPuzzle doesn't. Judge the position first — then find the move.
         </p>
         <button className="btn-primary" onClick={() => navigate('/puzzles')}>
           Start Playing
