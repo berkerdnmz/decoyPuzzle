@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="navbar-left">
         <Link to="/" className="navbar-brand">
           <span className="brand-icon">♟</span>
-          <span className="brand-text">Blindspot</span>
+          <span className="brand-text">DecoyPuzzle</span>
         </Link>
         <Link to="/puzzles" className="nav-link">
           Puzzles
