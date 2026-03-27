@@ -93,9 +93,9 @@ body {
 .feature-card p { font-size: 0.875rem; color: var(--text2); line-height: 1.5; }
 
 .puzzle-page { max-width: 1000px; margin: 0 auto; padding: 2rem; }
-.puzzle-layout { display: grid; grid-template-columns: 1fr 320px; gap: 2rem; align-items: start; }
+.puzzle-layout { display: flex;flex-direction: row;gap: 2rem;align-items: start; }
 @media (max-width: 700px) { .puzzle-layout { grid-template-columns: 1fr; } .puzzle-panel { order: -1; } }
-.board-wrapper { width: 100%; max-width: 560px; }
+.board-wrapper { width: 480px;flex-shrink: 0;}
 .puzzle-panel { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; display: flex; flex-direction: column; gap: 1.25rem; }
 .puzzle-meta { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
 .puzzle-rating-badge { font-family: 'DM Mono', monospace; font-size: 0.75rem; background: var(--bg3); border: 1px solid var(--border); color: var(--accent); padding: 0.2rem 0.6rem; border-radius: 20px; }
