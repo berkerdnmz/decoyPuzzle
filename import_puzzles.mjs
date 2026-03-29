@@ -13,7 +13,7 @@ if (!url || !key) {
 
 const supabase = createClient(url, key)
 
-const csv = readFileSync('puzzles_100.csv', 'utf-8')
+const csv = readFileSync('puzzles_10000.csv', 'utf-8')
 const records = parse(csv, { columns: true, skip_empty_lines: true })
 
 console.log(`Toplam ${records.length} puzzle okundu`)
