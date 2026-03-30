@@ -1,5 +1,7 @@
 # ♟ [DecoyPuzzle](https://decoypuzzle.com)
 
+> **[Play it live →](https://decoypuzzle.com)**
+
 A chess puzzle trainer with a twist: before making a move, you must first judge whether the position even has a winning move.
 
 ## What makes it different
