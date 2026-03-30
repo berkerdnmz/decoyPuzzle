@@ -253,7 +253,7 @@ export default function Review() {
 
         <div className="review-panel">
           <div className="puzzle-meta">
-            <span className="puzzle-rating-badge">Puzzle {puzzle.rating}</span>
+            <span className="puzzle-rating-badge">{puzzle.rating}</span>
             {puzzle.themes?.length > 0 && (
               <span className="puzzle-theme">{puzzle.themes[0]}</span>
             )}

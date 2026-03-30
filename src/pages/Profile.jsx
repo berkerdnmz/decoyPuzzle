@@ -198,7 +198,7 @@ export default function Profile() {
                         </div>
                         <div className="puzzle-card-info">
                           <span className="puzzle-card-rating">
-                            Puzzle {a.puzzles?.rating}
+                            {a.puzzles?.rating}
                           </span>
                           <span className="puzzle-card-elo">
                             ELO {a.player_elo_before}
